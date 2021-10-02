@@ -16,3 +16,5 @@ const markHigherBmi = bmiMark> bmiJohn;
 console.log(markHigherBmi);
 
 console.log( `Marks Bmi is higher than johns ${markHeight}`)
+
+console.log('For the git hub purposes');
