@@ -1,7 +1,5 @@
 const checkWinner = (avgDolphins,avgKoalas) => {
 
-    debugger;
-
     let winnerTeam = 'No one';
     if (avgDolphins >= avgKoalas * 2){
         winnerTeam = 'Dolphins'
@@ -21,4 +19,4 @@ const calcAvg = (scoreOne,scoreTwo,scoreThree) => {
 }
 
 
-checkWinner(calcAvg(44,23,71),calcAvg(65,54,49));
+checkWinner(calcAvg(100,23,71),calcAvg(65,10,10));
